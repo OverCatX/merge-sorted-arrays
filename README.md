@@ -48,7 +48,7 @@ All 10 unit tests will run and should pass.
 ### Run Example
 
 ```bash
-npm run merge_usage
+npm run example
 ```
 
 This runs the example file that demo the merge function with various test cases.
