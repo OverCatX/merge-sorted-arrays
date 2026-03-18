@@ -11,8 +11,6 @@ The implementation uses a three-pointer merge strategy:
 
 ## Setup Instructions
 
-### Prerequisites
-
 - Node.js (v14 or higher)
 - npm (comes with Node.js)
 
@@ -21,7 +19,8 @@ The implementation uses a three-pointer merge strategy:
 1. **Clone or navigate to the project directory:**
 
    ```bash
-   cd
+   git clone https://github.com/OverCatX/merge-sorted-arrays.git
+   cd merge-sorted-arrays
    ```
 
 2. **Install dependencies:**
@@ -46,27 +45,13 @@ npm test
 
 All 10 unit tests will run and should pass.
 
-### Run Tests in Watch Mode
-
-```bash
-npm run test:watch
-```
-
 ### Run Example
 
 ```bash
 npm run merge_usage
 ```
 
-This runs the example file that demonstrates the merge function with various test cases.
-
-### Build TypeScript to JavaScript
-
-```bash
-npm run build
-```
-
-This compiles TypeScript files to JavaScript in the `dist/` folder.
+This runs the example file that demo the merge function with various test cases.
 
 ## Test Cases
 
